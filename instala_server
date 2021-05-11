@@ -64,8 +64,8 @@ apt-get install curl -y > /dev/null 2>&1
 [[ ! -d /var/www/html/_S_script ]] && mkdir /var/www/html/_S_script
 cd /var/www/html/_S_script
 wget https://www.dropbox.com/s/ao7a6vrnrfmzdz0/megassh.zip > /dev/null 2>&1
-unzip modulos.zip > /dev/null 2>&1
-rm -rf modulos.zip
+unzip megassh.zip > /dev/null 2>&1
+rm -rf megassh.zip
 cd
 # HISTORY
 cat /dev/null > ~/.bash_history && history -c
