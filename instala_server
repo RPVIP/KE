@@ -29,7 +29,7 @@ wget https://raw.githubusercontent.com/RPVIP/KE/main/Plus -O /var/www/html/Plus 
 wget https://raw.githubusercontent.com/RPVIP/KE/main/list -O /home/list > /dev/null 2>&1
 wget https://raw.githubusercontent.com/RPVIP/KE/main/versao -O /home/versao > /dev/null 2>&1 && cat /home/versao >/var/www/html/script/versao
 wget https://raw.githubusercontent.com/RPVIP/KE/main/keyssh -O /bin/keyssh > /dev/null 2>&1
-wget https://raw.githubusercontent.com/RPVIP/MEGA/main/SSHPLUS/instalador/stunnel.pem > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RPVIP/KE/main/stunnel.pem > /dev/null 2>&1
 wget https://raw.githubusercontent.com/RPVIP/MEGA/main/SSHPLUS/modulos/otimizar -O /bin/otimizar > /dev/null 2>&1
 echo -e " "
 # PERMISOS ARQUIVOS
