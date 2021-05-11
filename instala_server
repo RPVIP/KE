@@ -9,7 +9,7 @@ echo ""
 read -n1 -r -p " Enter to Continue..."
 echo ""
 # ACTUALIZA REPOSITORIO
-echo -e "\033[1;33m ATUALIZANDO REPOSITORIO.... \033[1;32mAGUARDE"
+echo -e "\033[1;33m ACTUALIZA REPOSITORIO.... \033[1;32mAGUARDE"
 apt-get update -y > /dev/null 2>&1
 apt-get upgrade -y > /dev/null 2>&1
 apt-get install curl -y > /dev/null 2>&1
@@ -54,12 +54,12 @@ echo -e "\033[1;33m MONTANDO O SEU LINK-IP... \033[1;32mAGUARDE"
 apt-get install curl -y > /dev/null 2>&1
 IP=$(wget -qO- ipv4.icanhazip.com)
 if [[ -e "/var/www/html/Plus" ]]; then
-sed -i "s;SEU-IP-AKI;$IP;g" /var/www/html/Plus > /dev/null 2>&1
+sed -i "s;brasil.rpssh.xyz;$IP;g" /var/www/html/Plus > /dev/null 2>&1
 fi
 apt-get install curl -y > /dev/null 2>&1
 IP=$(wget -qO- ipv4.icanhazip.com)
 if [[ -e "/home/list" ]]; then
-sed -i "s;SEU-IP-AKI;$IP;g" /home/list > /dev/null 2>&1
+sed -i "s;brasil.rpssh.xyz;$IP;g" /home/list > /dev/null 2>&1
 fi
 sleep 6s
 # DONWLOAD SERVER
