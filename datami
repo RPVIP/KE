@@ -5,7 +5,7 @@ Menu() {
     clear
     echo -e '\n'
     echo "=========================="
-    echo "     Datami EhisOpeNer    "
+    echo "     Datami MEGAVPN    "
     echo "=========================="
     echo " Antes de escolher sua opção"
     echo "abra o aplicativo estudante desejado, espere"
@@ -53,7 +53,7 @@ Menu() {
     16) App16 ;;
     17) App17 ;;
     0) Sair ;;
-    *) "Calma Barboleta" ; echo ; Menu;;
+    *) "Calma BB" ; echo ; Menu;;
     esac
     }
 
